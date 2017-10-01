@@ -17,5 +17,9 @@ public class TopicBlueprint {
     String description = "Spring boot brings in Convention over configuration";
 
     ModelFactory modelFactory = new ModelFactory();
+    /*
+       Below code not working
+       Not able to register modelFactory - https://github.com/mguymon/model-citizen#modelfactory
+    */
     // modelFactory.registerBlueprint(Topic.class);
 }
